@@ -1,3 +1,7 @@
-module Osheet::Xmlss
+require 'osheet'
+require 'xmlss'
+require 'osheet/xmlss_writer'
 
-end
+module Osheet; end
+module Osheet::Xmlss; end
+
