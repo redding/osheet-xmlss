@@ -101,6 +101,10 @@ Osheet::Workbook.new(Osheet::XmlssWriter.new) {
 }.to_file('stats.xls')
 ```
 
+## Writer Options
+
+* `:pp`: (pretty-print) set to a Fixnum to tab-space indent pretty print the output (from Undies, https://github.com/kellyredding/undies)
+
 ## API
 
 Check out the Osheet wiki: https://github.com/kelredd/osheet/wiki.  It covers the full Osheet API.
