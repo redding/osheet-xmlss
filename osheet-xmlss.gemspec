@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency("assert")
 
-  gem.add_dependency("osheet", ["~> 1.0.0.rc"])
+  gem.add_dependency("osheet", ["~> 1.0.0.rc.2"])
   gem.add_dependency("xmlss",  ["~> 1.0.0.rc"])
 
 end
