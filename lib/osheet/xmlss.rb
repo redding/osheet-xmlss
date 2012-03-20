@@ -1,3 +1,2 @@
-module Osheet::Xmlss
-
-end
+module Osheet; end
+module Osheet::Xmlss; end
