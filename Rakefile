@@ -19,7 +19,7 @@ namespace :bench do
   task :profiler do
     require 'bench/profiler_runner'
     runner = OsheetXmlssProfilerRunner.new(1000)
-    runner.print_flat(STDOUT, :min_percent => 3)
+    runner.print_flat(STDOUT, :min_percent => 1)
   end
 
   desc "Run the example workbook builds."
