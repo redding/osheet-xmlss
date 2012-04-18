@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <Styles>
+    <Style ss:ID="..currency_dollar_2_comma_black">
+      <NumberFormat ss:Format="&quot;$&quot;#,##0.00" />
+    </Style>
+    <Style ss:ID="..number_none_0_nocomma_black">
+      <NumberFormat ss:Format="0" />
+    </Style>
+    <Style ss:ID="..text">
+      <NumberFormat ss:Format="@" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="bench results">
+    <Table>
+      <Column ss:Width="200" />
+      <Column ss:Width="200" />
+      <Column ss:Width="200" />
+      <Row>
+        <Cell>
+          <Data ss:Type="String">currency</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">number</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">text</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="..currency_dollar_2_comma_black">
+          <Data ss:Type="Number">45.23</Data>
+        </Cell>
+        <Cell ss:StyleID="..number_none_0_nocomma_black">
+          <Data ss:Type="Number">1</Data>
+        </Cell>
+        <Cell ss:StyleID="..text">
+          <Data ss:Type="String">&lt;&gt;&amp;&#x27;&quot;&#x2F;</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
