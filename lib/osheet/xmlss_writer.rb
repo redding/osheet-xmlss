@@ -91,12 +91,12 @@ module Osheet
     # 2) set the current element's style_id attribute
 
     def style(style_class, format=nil)
-      @style_cache.get(
+      xs = @style_cache.get(
         style_class,
         format || Osheet::Format.new(:general)
-      ).tap do |xmlss_style|
-        @xmlss_workbook.style_id(xmlss_style.id) if xmlss_style
-      end
+      )
+      @xmlss_workbook.style_id(xs.id) if xs
+      xs
     end
 
     def colspan(count)

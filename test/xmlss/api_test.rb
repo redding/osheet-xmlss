@@ -76,7 +76,7 @@ module Osheet::Xmlss
 
     should "write row element markup" do
       assert_equal(
-        "<Row ss:AutoFitHeight=\"1\" ss:Height=\"100\" ss:Hidden=\"1\" ss:StyleID=\".awesome.thing\" />",
+        "<Row ss:AutoFitHeight=\"1\" ss:Height=\"100\" ss:Hidden=\"1\" ss:StyleID=\".awesome.thing\"></Row>",
         xmlss_element_markup(subject)
       )
     end
@@ -129,7 +129,7 @@ module Osheet::Xmlss
 
     should "write worksheet element markup" do
       assert_equal(
-        "<Worksheet ss:Name=\"testsheet2\"><Table /></Worksheet>",
+        "<Worksheet ss:Name=\"testsheet2\"><Table></Table></Worksheet>",
         xmlss_element_markup(subject)
       )
     end

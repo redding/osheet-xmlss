@@ -66,7 +66,7 @@ module Osheet::Xmlss
     end
 
     should "write workbook markup" do
-      assert_equal "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Workbook xmlns=\"urn:schemas-microsoft-com:office:spreadsheet\" xmlns:ss=\"urn:schemas-microsoft-com:office:spreadsheet\"><Styles><Style ss:ID=\"..number_none_0_nocomma_black\"><NumberFormat ss:Format=\"0\" /></Style></Styles><Worksheet ss:Name=\"Test!\"><Table><Column /><Row><Cell ss:StyleID=\"..number_none_0_nocomma_black\"><Data ss:Type=\"Number\">1</Data></Cell></Row></Table></Worksheet></Workbook>", @writer.to_s
+      assert_equal "<?xml version=\"1.0\" encoding=\"UTF-8\"?><Workbook xmlns=\"urn:schemas-microsoft-com:office:spreadsheet\" xmlns:ss=\"urn:schemas-microsoft-com:office:spreadsheet\"><Styles><Style ss:ID=\"..number_none_0_nocomma_black\"><NumberFormat ss:Format=\"0\" /></Style></Styles><Worksheet ss:Name=\"Test!\"><Table><Column /><Row><Cell ss:StyleID=\"..number_none_0_nocomma_black\"><Data ss:Type=\"Number\">1</Data></Cell></Row></Table></Worksheet></Workbook>", @writer.to_s
     end
 
     should "return string xml data" do
