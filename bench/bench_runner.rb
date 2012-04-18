@@ -72,7 +72,7 @@ end
 
 class OsheetXmlssBenchRunner
 
-  ROWS = [10, 100, 1_000, 10_000, 100_000]
+  ROWS = [1_000]#, 100, 1_000, 10_000, 100_000]
 
   def initialize
     puts "Benchmark Results:"
