@@ -11,11 +11,9 @@ class OsheetXmlssProfilerRunner
       Osheet::Workbook.new(Osheet::XmlssWriter.new(:pp => 2), {
         :profiler_row_count => n,
         :data_values => {
-          :number   => 1,
-          :text     => 'text',
-          :currency => 123.45,
-          :text     => "<>&'\"/",
-          :currency => 45.23
+          'number'   => 1,
+          'currency' => 123.45,
+          'text'     => "<>&'\"/"
         }
       }) {
         title "bench"
