@@ -28,11 +28,11 @@ module Osheet::Xmlss
     end
 
     should "key based off class value and format key" do
-      assert_equal '',                    subject.send(:key, '', nil)
-      assert_equal '.awesome',            subject.send(:key, 'awesome', nil)
-      assert_equal '.awesome.thing',      subject.send(:key, 'awesome thing', nil)
-      assert_equal '.awesome..something', subject.send(:key, 'awesome', 'something')
-      assert_equal '..something',         subject.send(:key, '', 'something')
+      assert_equal '..',                 subject.send(:key, '', nil)
+      assert_equal 'awesome..',          subject.send(:key, 'awesome', nil)
+      assert_equal 'awesome.thing..',    subject.send(:key, 'awesome thing', nil)
+      assert_equal 'awesome..something', subject.send(:key, 'awesome', 'something')
+      assert_equal '..something',        subject.send(:key, '', 'something')
     end
 
     should "return nil if trying to get the style for an empty class and general format" do
