@@ -20,7 +20,7 @@ module Osheet::Xmlss
     should have_instance_methods :name
     should have_instance_methods :width, :height
     should have_instance_methods :autofit, :autofit?, :hidden, :hidden?
-    should have_instance_methods :data, :format, :href, :formula
+    should have_instance_methods :data, :href, :formula
     should have_instance_methods :index, :rowspan, :colspan
 
   end

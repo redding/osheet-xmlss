@@ -122,7 +122,6 @@ module Osheet
       :hidden,      # column, row
       :hidden?,     # column, row
       :data,        # cell
-      :format,      # cell
       :href,        # cell
       :formula,     # cell
       :index        # cell
