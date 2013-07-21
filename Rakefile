@@ -1,11 +1,4 @@
-#!/usr/bin/env rake
-
-require 'assert/rake_tasks'
-Assert::RakeTasks.for(:test)
-
-require 'bundler/gem_tasks'
-
-task :default => :build
+require "bundler/gem_tasks"
 
 namespace :bench do
 
@@ -19,7 +12,7 @@ namespace :bench do
   task :profiler do
     require 'bench/profiler_runner'
     runner = OsheetXmlssProfilerRunner.new(1000)
-    runner.print_flat(STDOUT, :min_percent => 3)
+    runner.print_flat(STDOUT, :min_percent => 1)
   end
 
   desc "Run the example workbook builds."

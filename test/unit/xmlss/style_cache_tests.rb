@@ -1,10 +1,9 @@
 require "assert"
-
 require 'osheet/xmlss/style_cache'
 
-module Osheet::Xmlss
+class Osheet::Xmlss::StyleCache
 
-  class StyleCacheTests < Assert::Context
+  class UnitTests < Assert::Context
     desc "the style cache"
     before do
       @workbook = Osheet::Workbook.new
@@ -16,9 +15,9 @@ module Osheet::Xmlss
       @workbook.style('.border.color') { @workbook.border '#FF0000', :thin }
       @xmlss_workbook = ::Xmlss::Workbook.new(Xmlss::Writer.new)
 
-      @cache = StyleCache.new(@workbook, @xmlss_workbook)
+      @cache = Osheet::Xmlss::StyleCache.new(@workbook, @xmlss_workbook)
     end
-    subject { @cache }
+    subject{ @cache }
 
     should have_reader :styles
     should have_instance_method :get, :keys, :empty?, :size, :[]
@@ -28,11 +27,11 @@ module Osheet::Xmlss
     end
 
     should "key based off class value and format key" do
-      assert_equal '',                    subject.send(:key, '', nil)
-      assert_equal '.awesome',            subject.send(:key, 'awesome', nil)
-      assert_equal '.awesome.thing',      subject.send(:key, 'awesome thing', nil)
-      assert_equal '.awesome..something', subject.send(:key, 'awesome', 'something')
-      assert_equal '..something',         subject.send(:key, '', 'something')
+      assert_equal '..',                 subject.send(:key, '', nil)
+      assert_equal 'awesome..',          subject.send(:key, 'awesome', nil)
+      assert_equal 'awesome.thing..',    subject.send(:key, 'awesome thing', nil)
+      assert_equal 'awesome..something', subject.send(:key, 'awesome', 'something')
+      assert_equal '..something',        subject.send(:key, '', 'something')
     end
 
     should "return nil if trying to get the style for an empty class and general format" do
@@ -59,7 +58,5 @@ module Osheet::Xmlss
     end
 
   end
-
-
 
 end
