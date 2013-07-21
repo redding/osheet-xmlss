@@ -2,22 +2,6 @@
 
 A writer for Osheet (https://github.com/kellyredding/osheet).  Use this with Osheet to write workbooks in the Xmlss format (https://github.com/kellyredding/xmlss.)
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'osheet-xmlss'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install osheet-xmlss
-
-Osheet::Xmlss will install Osheet and Xmlss for you and you are all set.
-
 ## Usage
 
 ```ruby
@@ -121,6 +105,22 @@ I've add a few examples to ./examples.  Please refer first to the API then to th
   - http://github.com/kellyredding/osheet
 * *Xmlss Source*
   - http://github.com/kellyredding/xmlss
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'osheet-xmlss'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install osheet-xmlss
+
+Osheet::Xmlss will install Osheet and Xmlss for you and you are all set.
 
 ## Contributing
 
