@@ -1,10 +1,9 @@
 require "assert"
-
 require 'osheet/xmlss/style_cache'
 
-module Osheet::Xmlss
+class Osheet::Xmlss::StyleCache
 
-  class StyleCacheTests < Assert::Context
+  class UnitTests < Assert::Context
     desc "the style cache"
     before do
       @workbook = Osheet::Workbook.new
@@ -16,9 +15,9 @@ module Osheet::Xmlss
       @workbook.style('.border.color') { @workbook.border '#FF0000', :thin }
       @xmlss_workbook = ::Xmlss::Workbook.new(Xmlss::Writer.new)
 
-      @cache = StyleCache.new(@workbook, @xmlss_workbook)
+      @cache = Osheet::Xmlss::StyleCache.new(@workbook, @xmlss_workbook)
     end
-    subject { @cache }
+    subject{ @cache }
 
     should have_reader :styles
     should have_instance_method :get, :keys, :empty?, :size, :[]
@@ -59,7 +58,5 @@ module Osheet::Xmlss
     end
 
   end
-
-
 
 end

@@ -1,10 +1,9 @@
 require "assert"
-
 require 'osheet/xmlss_writer'
 
-module Osheet::Xmlss
+class Osheet::Xmlss::Writer
 
-  class WriterTests < Assert::Context
+  class UnitTests < Assert::Context
     desc "the xmlss writer"
     before do
       @writer = Osheet::XmlssWriter.new
@@ -25,7 +24,7 @@ module Osheet::Xmlss
 
   end
 
-  class WorkbookTests < WriterTests
+  class WorkbookTests < UnitTests
     before do
       @workbook.worksheet("testsheet1")
     end
@@ -34,6 +33,7 @@ module Osheet::Xmlss
       assert_raises ArgumentError do
         subject.worksheet(Osheet::Worksheet.new("testsheet1"))
       end
+
       assert_nothing_raised do
         subject.worksheet(Osheet::Worksheet.new("testsheet2"))
         subject.worksheet(Osheet::Worksheet.new) {
@@ -47,7 +47,7 @@ module Osheet::Xmlss
 
   end
 
-  class ToFileTests < WriterTests
+  class ToFileTests < UnitTests
     desc "used with a workbook"
     before do
       Osheet::Workbook.new(@writer) {
