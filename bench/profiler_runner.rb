@@ -6,24 +6,52 @@ class OsheetXmlssProfilerRunner
   attr_reader :result
 
   def initialize(n)
-
-    RubyProf.measure_mode = RubyProf::MEMORY
+    # RubyProf.measure_mode = RubyProf::MEMORY
     @result = RubyProf.profile do
-      Osheet::Workbook.new {
-        title "basic"
-        worksheet {
-          name "one dollar"
-          5.times { column }
+      Osheet::Workbook.new(Osheet::XmlssWriter.new(:pp => 2), {
+        :profiler_row_count => n,
+        :data_values => {
+          'number'   => 1,
+          'currency' => 123.45,
+          'text'     => "<>&'\"/"
+        }
+      }) {
+        title "bench"
 
-          1000.times do
-            row {
-              [1, "text", 123.45, "0001267", "$45.23"].each do |data_value|
-                cell { data data_value }
-              end
+        template(:row, :header) {
+          columns.each do |column|
+            cell {
+              data column.meta[:label]
             }
           end
         }
-      }.to_file('./bench/profiler_1000.xls', :pp => 2)
+
+        template(:row, :data) { |values|
+          columns.each do |col|
+            cell {
+              data values[col.meta[:label]]
+              format col.meta[:label]
+            }
+          end
+        }
+
+        worksheet {
+          name "profiler results"
+
+          data_values.keys.each do |label|
+            column {
+              width 200
+              meta(:label => label)
+            }
+          end
+
+          row :header
+
+          profiler_row_count.times do
+            row :data, data_values
+          end
+        }
+      }.to_file("./bench/profiler_runner_#{n}.xls")
     end
 
   end

@@ -1,5 +1,4 @@
 require "assert"
-
 require 'osheet/xmlss_writer'
 
 module Osheet::Xmlss
@@ -38,13 +37,13 @@ module Osheet::Xmlss
     end
 
     should "style the cell" do
-      assert_equal ".awesome.thing..number_none_0_nocomma_black", @xmlss_cell.style_id
+      assert_equal "awesome.thing..number_none_0_nocomma_black", @xmlss_cell.style_id
       assert_equal 1, subject.style_cache.size
     end
 
     should "write cell element markup" do
       assert_equal(
-        "<Cell ss:Formula=\"=R1C1\" ss:HRef=\"http://example.com\" ss:Index=\"3\" ss:MergeAcross=\"4\" ss:MergeDown=\"1\" ss:StyleID=\".awesome.thing..number_none_0_nocomma_black\"><Data ss:Type=\"Number\">100</Data></Cell>",
+        "<Cell ss:Formula=\"=R1C1\" ss:HRef=\"http://example.com\" ss:Index=\"3\" ss:MergeAcross=\"4\" ss:MergeDown=\"1\" ss:StyleID=\"awesome.thing..number_none_0_nocomma_black\"><Data ss:Type=\"Number\">100</Data></Cell>",
         xmlss_element_markup(subject)
       )
     end
@@ -70,13 +69,13 @@ module Osheet::Xmlss
     end
 
     should "style the row" do
-      assert_equal ".awesome.thing", @xmlss_row.style_id
+      assert_equal "awesome.thing..", @xmlss_row.style_id
       assert_equal 1, subject.style_cache.size
     end
 
     should "write row element markup" do
       assert_equal(
-        "<Row ss:AutoFitHeight=\"1\" ss:Height=\"100\" ss:Hidden=\"1\" ss:StyleID=\".awesome.thing\" />",
+        "<Row ss:AutoFitHeight=\"1\" ss:Height=\"100\" ss:Hidden=\"1\" ss:StyleID=\"awesome.thing..\"></Row>",
         xmlss_element_markup(subject)
       )
     end
@@ -102,13 +101,13 @@ module Osheet::Xmlss
     end
 
     should "style an Xmlss column" do
-      assert_equal ".awesome", @xmlss_column.style_id
+      assert_equal "awesome..", @xmlss_column.style_id
       assert_equal 1, subject.style_cache.size
     end
 
     should "write column element markup" do
       assert_equal(
-        "<Column ss:AutoFitWidth=\"1\" ss:Hidden=\"1\" ss:StyleID=\".awesome\" ss:Width=\"100\" />",
+        "<Column ss:AutoFitWidth=\"1\" ss:Hidden=\"1\" ss:StyleID=\"awesome..\" ss:Width=\"100\" />",
         xmlss_element_markup(subject)
       )
     end
@@ -129,7 +128,7 @@ module Osheet::Xmlss
 
     should "write worksheet element markup" do
       assert_equal(
-        "<Worksheet ss:Name=\"testsheet2\"><Table /></Worksheet>",
+        "<Worksheet ss:Name=\"testsheet2\"><Table></Table></Worksheet>",
         xmlss_element_markup(subject)
       )
     end

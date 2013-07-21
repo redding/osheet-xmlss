@@ -23,16 +23,16 @@ module Osheet::Xmlss
     def get(style_class, format)
       # generate the style key and get the get the cached style or
       # build and cache and return a style for the key
-      return nil if (key = self.key(style_class, format.key)).empty?
+      key = self.key(style_class, format.key)
+      return nil if key == '..'
+
       @styles[key] ||
       build_and_cache(key, @osheet_workbook.styles.for(style_class), format)
     end
 
     # build a unique key for styling based off the style and format keys
     def key(class_value, format_key)
-      (class_value || '').strip.split(/\s+/).collect do |c|
-        ".#{c}"
-      end.join('') + (format_key.nil? || format_key.empty? ? '' : "..#{format_key}")
+      "#{(class_value || '').strip.gsub(/\s+/, '.')}..#{format_key}"
     end
 
     protected

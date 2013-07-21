@@ -1,24 +1,26 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/osheet/xmlss/version', __FILE__)
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'osheet/xmlss/version'
 
 Gem::Specification.new do |gem|
   gem.name        = "osheet-xmlss"
   gem.version     = Osheet::Xmlss::VERSION
-  gem.description = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
-  gem.summary     = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
-
   gem.authors     = ["Kelly Redding"]
   gem.email       = ["kelly@kellyredding.com"]
+  gem.description = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
+  gem.summary     = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
   gem.homepage    = "http://github.com/kellyredding/osheet-xmlss"
+  gem.license     = 'MIT'
 
-  gem.files         = `git ls-files`.split("\n")
-  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
+  gem.files         = `git ls-files`.split($/)
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency("assert")
+  gem.add_development_dependency("assert", ["~> 2.0"])
 
-  gem.add_dependency("osheet", ["~> 1.0.0.rc.2"])
-  gem.add_dependency("xmlss",  ["~> 1.0.0.rc"])
+  gem.add_dependency("osheet", ["~> 1.0"])
+  gem.add_dependency("xmlss",  ["~> 1.0"])
 
 end

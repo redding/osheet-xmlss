@@ -16,18 +16,14 @@ class OsheetXmlssBenchResults
 
   def run
     @runner.run do
-      data_values = {
-        :number   => 1,
-        :text     => 'text',
-        :currency => 123.45,
-        :text     => "<>&'\"/",
-        :currency => 45.23
-      }
-
-      outstream = StringIO.new(out = "")
-      outstream << Osheet::Workbook.new(Osheet::XmlssWriter.new(:pp => 2), {
+      Osheet::Workbook.new(Osheet::XmlssWriter.new(:pp => 2), {
         :bench_row_count => @row_count,
-        :runner => @runner
+        :runner => @runner,
+        :data_values => {
+          'number'   => 1,
+          'currency' => 45.23,
+          'text'     => "<>&'\"/"
+        }
       }) {
         title "bench"
 
@@ -51,7 +47,7 @@ class OsheetXmlssBenchResults
         worksheet {
           name "bench results"
 
-          data_values.keys.each do |label|
+          data_values.keys.sort.each do |label|
             column {
               width 200
               meta(:label => label)
@@ -60,14 +56,15 @@ class OsheetXmlssBenchResults
 
           row :header
 
-          10.times do |i|
-            (bench_row_count / 10).times do
+          # 10.times do |i|
+            # (bench_row_count / 10).times do
+            bench_row_count.times do
               row :data, data_values
             end
-            runner.snapshot("#{((i+1)*10).to_s.rjust(3)}%")
-          end
+            # runner.snapshot("#{((i+1)*10).to_s.rjust(3)}%")
+          # end
         }
-      }.to_data
+      }.to_file("./bench/bench_runner_#{@row_count}.xls")
     end
   end
 
@@ -75,7 +72,7 @@ end
 
 class OsheetXmlssBenchRunner
 
-  ROWS = [10, 100, 1000]#, 10000]#, 30000]
+  ROWS = [1_000]#, 100, 1_000, 10_000, 100_000]
 
   def initialize
     puts "Benchmark Results:"
