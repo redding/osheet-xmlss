@@ -1,6 +1,5 @@
 require 'osheet'
 require 'xmlss'
-
 require 'osheet/xmlss/style_cache'
 
 module Osheet

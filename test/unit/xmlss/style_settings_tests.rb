@@ -1,13 +1,12 @@
 require "assert"
-
 require 'osheet/xmlss/style_settings'
 
-module Osheet::Xmlss
+class Osheet::Xmlss::StyleSettings
 
-  class StyleSettingsTests < Assert::Context
+  class UnitTests < Assert::Context
     desc "the style writer when building"
     before do
-      @settings = StyleSettings.new([])
+      @settings = Osheet::Xmlss::StyleSettings.new([])
       @workbook = Osheet::Workbook.new
       @workbook.style('.align.center') { @workbook.align  :center }
       @workbook.style('.font.size')    { @workbook.font   14      }
@@ -26,7 +25,7 @@ module Osheet::Xmlss
     end
 
     should "conditionally run a block if the setting exists and is not empty" do
-      settings = StyleSettings.new([@workbook.styles.first])
+      settings = Osheet::Xmlss::StyleSettings.new([@workbook.styles.first])
       @something = ''
 
       settings.setting(:font) { @something = 'i should be empty' }
@@ -38,9 +37,7 @@ module Osheet::Xmlss
 
   end
 
-
-
-  class AlignmentSettingsTests < StyleSettingsTests
+  class AlignmentSettingsTests < UnitTests
     desc "align settings"
 
     should "translate horizontal directives" do
@@ -62,9 +59,7 @@ module Osheet::Xmlss
 
   end
 
-
-
-  class FontSettingsTests < StyleSettingsTests
+  class FontSettingsTests < UnitTests
     desc "font settings"
 
     should "translate size, color and name directives" do
@@ -91,10 +86,7 @@ module Osheet::Xmlss
 
   end
 
-
-
-
-  class BgSettingsTests < StyleSettingsTests
+  class BgSettingsTests < UnitTests
     desc "bg settings"
 
     should "translate color directives" do
@@ -111,11 +103,7 @@ module Osheet::Xmlss
 
   end
 
-
-
-
-
-  class BorderSettingsTests < StyleSettingsTests
+  class BorderSettingsTests < UnitTests
     desc "border settings"
 
     should "translate color directives" do
@@ -144,9 +132,7 @@ module Osheet::Xmlss
 
   end
 
-
-
-  class ParseSettingsTests < StyleSettingsTests
+  class ParseSettingsTests < UnitTests
     desc "settings"
 
     should "parse Osheet style objs for their settings" do
@@ -255,8 +241,9 @@ module Osheet::Xmlss
           :color => "#FF0000",
           :weight => :thin
         }
-      }, StyleSettings.new(@workbook.styles).value)
+      }, Osheet::Xmlss::StyleSettings.new(@workbook.styles).value)
     end
+
   end
 
 end
