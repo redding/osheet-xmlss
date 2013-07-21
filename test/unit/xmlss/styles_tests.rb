@@ -1,5 +1,4 @@
 require "assert"
-
 require 'osheet/xmlss_writer'
 
 module Osheet::Xmlss
