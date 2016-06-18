@@ -6,11 +6,11 @@ require 'osheet/xmlss/version'
 Gem::Specification.new do |gem|
   gem.name        = "osheet-xmlss"
   gem.version     = Osheet::Xmlss::VERSION
-  gem.authors     = ["Kelly Redding"]
-  gem.email       = ["kelly@kellyredding.com"]
-  gem.description = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
+  gem.authors     = ["Kelly Redding", "Collin Redding"]
+  gem.email       = ["kelly@kellyredding.com", "collin.redding@me.com"]
   gem.summary     = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
-  gem.homepage    = "http://github.com/kellyredding/osheet-xmlss"
+  gem.description = %q{An Osheet writer (https://github.com/kellyredding/osheet) for the XMLSS format (https://github.com/kellyredding/xmlss)}
+  gem.homepage    = "http://github.com/redding/osheet-xmlss"
   gem.license     = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
@@ -18,9 +18,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_development_dependency("assert", ["~> 2.0"])
+  gem.add_development_dependency("assert", ["~> 2.16.1"])
 
-  gem.add_dependency("osheet", ["~> 1.0"])
-  gem.add_dependency("xmlss",  ["~> 1.0"])
+  gem.add_dependency("osheet", ["~> 1.1.1"])
+  gem.add_dependency("xmlss",  ["~> 1.0.1"])
 
 end
