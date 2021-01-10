@@ -1,3 +1,5 @@
+=== **This has been archived and is not maintained.** ===
+
 # Osheet::Xmlss
 
 A writer for Osheet (https://github.com/kellyredding/osheet).  Use this with Osheet to write workbooks in the Xmlss format (https://github.com/kellyredding/xmlss.)
